@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Yadav | Contact</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://media.giphy.com/media/l0MYDGA4cJ1uf7vG0/giphy.gif'); /* Deadpool background animation */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 2px solid #e23636; /* Deadpool Red */
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 350px;
+            width: 90%;
+        }
+
+        h1 { margin: 10px 0; color: #e23636; text-transform: uppercase; letter-spacing: 2px; }
+        p { margin: 5px 0; font-size: 1.1em; }
+        .title { color: #cccccc; font-style: italic; margin-bottom: 20px; }
+        
+        .contact-btn {
+            display: block;
+            background: #e23636;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .contact-btn:hover { transform: scale(1.05); background: #b32a2a; }
+
+        .location { font-size: 0.9em; color: #888; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Nikhil Yadav</h1>
+        <p class="title">Facilities Maintenance Technician I</p>
+        <hr style="border: 0; border-top: 1px solid #444;">
+        <p><strong>Email:</strong> nyadav@septodont.com</p>
+        <p><strong>Phone:</strong> +1 226-791-7659</p>
+        <p class="location">📍 Cambridge, ON</p>
+        
+        <a href="mailto:nyadav@septodont.com" class="contact-btn">Send Message</a>
+        <a href="tel:+12267917659" class="contact-btn" style="background: #333;">Call Me</a>
+    </div>
+
+</body>
+</html>
